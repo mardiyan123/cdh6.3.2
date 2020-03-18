@@ -168,7 +168,7 @@
     2. vim /etc/yum.repos.d/cloudera-repo.repo 
        [cloudera-repo]
        name=cloudera-repo
-       baseurl=http://hostname:8000/html/cloudera-repos
+       baseurl=http://hostname:8000/html/cloudera-repos/cm/version/
        enabled=1
        gpgcheck=0
     3. change to the directory where all of the sources and parcels is downloaded
